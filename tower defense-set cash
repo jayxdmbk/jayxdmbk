@@ -54,5 +54,4 @@ function footer() {
 
 footer();
 Alert ('thxs for all the love!');
-let top = (element.offsetTop - pos2) > 0 ? (element.offsetTop - pos2) : 0;
-            
+}
