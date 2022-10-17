@@ -13,7 +13,7 @@
                 alert('This cheat only supports tower defence game mode!')
             } else {
                 let tokens = Number(parseFloat(prompt('made by jaycub-how many tokens do you want??')));
-                reactHandler().stateNode.setState({ round  });
+                reactHandler().stateNode.setState({ token  });
         
                 alert('Tokens set thxs to ur boi jayxdmbk!');
             };
