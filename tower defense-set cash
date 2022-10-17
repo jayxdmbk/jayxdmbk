@@ -23,7 +23,7 @@
 function footer() {
     let element = document.createElement('div');
 
-    element.style = `font-family: "Nunito", sans-serif; font-size: 25px; height: 70px; width: 175px; border: 25px solid rgb(255, 250, 255); background: rgb(0, 0, 255); position: absolute; top: 25x; left: 25px; border-radius: 25px; color: rgb(250, 250, 250); text-align: center;`;
+    element.style = `font-family: "Nunito", sans-serif; font-size: 15px; height: 65px; width: 175px; border: 4px solid rgb(255, 250, 255); background: rgb(0, 0, 255); position: absolute; top: 20x; left: 20px; border-radius: 10px; color: rgb(250, 250, 250); text-align: center;`;
     element.innerHTML = `<p>Made by jaycub <br> the <a style="color: #170606;" href="https://www.youtube.com/watch?v=nUEqPtVGIpE&list=RDBAsRTTO8L2k&index=20" target="_blank">best song to listen to while playen </a></p>`;
     document.body.appendChild(element);
     
