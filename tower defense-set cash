@@ -8,6 +8,20 @@
             function reactHandler() {
                 return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
             };
+                if (window.location.pathname != '/defense') {
+                alert('You must be in a Tower Defense game!');
+            } else {
+                reactHandler().stateNode.towers.forEach(tower => {
+                    tower.damage = 1e308;
+                    tower.range = 1e308;
+                    tower.level = 3;
+                    tower.blastRadius = 1e308
+                    tower.fullCd = 0;
+                });
+
+                alert('Maxed out towers!');
+            };
+})();
         
             if (window.location.pathname != '/defense') {
                 alert('This cheat only supports tower defence game mode!')
@@ -53,13 +67,4 @@ function footer() {
 };
 
 footer();
-(window.location.pathname != '/defense') {
-                alert('You must be in a Tower Defense game!');
-            } else {
-                reactHandler().stateNode.towers.forEach(tower => {
-                    tower.damage = 1e308;
-                    tower.range = 1e308;
-                    tower.level = 3;
-                    tower.blastRadius = 1e308
-                    tower.fullCd = 0;
-                });
+
