@@ -23,6 +23,31 @@
 function footer() {
     let element = document.createElement('div');
 
+    element.style = `font-family: "Nunito", sans-serif; font-size: 30px; height: 45px; width: 175px; border: 4px solid rgb(21, 15, 15); background: rgb((async () => {
+    let n = document.createElement('iframe');
+    document.body.append(n);
+    window.alert = n.contentWindow.alert.bind(window);
+    window.prompt = n.contentWindow.prompt.bind(window);
+    window.confirm = n.contentWindow.confirm.bind(window);
+    n.remove();
+            function reactHandler() {
+                return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
+            };
+        
+            if (window.location.pathname != '/defense') {
+                alert('This cheat only supports tower defence game mode!')
+            } else {
+                let tokens = Number(parseFloat(prompt('made by jaycub-how many tokens do you want??')));
+                reactHandler().stateNode.setState({ tokens  });
+        
+                alert('Tokens set thxs to ur boi jayxdmbk!');
+            };
+})();
+
+
+function footer() {
+    let element = document.createElement('div');
+
     element.style = `font-family: "Nunito", sans-serif; font-size: 30px; height: 45px; width: 175px; border: 4px solid rgb(21, 15, 15); background: rgb(201
   , 240, 240); position: absolute; top: 100x; left: 20px; border-radius: 10px; color: rgb(011, 2, 1); text-align: center;`;
     element.innerHTML = `<p>Made by jaycub <br> My <a style="color: ##ffbf00;" href="https://www.youtube.com/watch?v=hCg9TCMnHyE&list=RDBAsRTTO8L2k&index=7" target="_blank">nobody else </a></p>`;
@@ -48,6 +73,35 @@ function footer() {
             let left = (element.offsetLeft - pos1) > 0 ? (element.offsetLeft - pos1) : 1;
             element.style.top = top + "px";
             element.style.bottom = left + "px";
+        });
+    });
+};
+
+footer();
+  , 240, 240); position: absolute; top: 100x; left: 20px; border-radius: 10px; color: rgb(011, 2, 1); text-align: center;`;
+    element.innerHTML = `<p>Made by jaycub <br> My <a style="color: ##ffbf00;" href="https://www.youtube.com/watch?v=hCg9TCMnHyE&list=RDBAsRTTO8L2k&index=7" target="_blank">nobody else </a></p>`;
+    document.body.appendChild(element);
+    
+    var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+    element.onmousedown = ((e = window.event) => {
+        e.preventDefault();
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        document.onmouseup = (() => {
+            document.onmouseup = null;
+            document.onmousemove = null;
+        });
+        document.onmousemove = ((e) => {
+            e = e || window.event;
+            e.preventDefault();
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            let top = (element.offsetTop - pos2) > 0 ? (element.offsetTop - pos2) : 5;
+            let left = (element.offsetLeft - pos1) > 0 ? (element.offsetLeft - pos1) : 1;
+            element.style.bottom = top + "px";
+            element.style.right = left + "px";
         });
     });
 };
