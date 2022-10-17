@@ -15,29 +15,7 @@
                 let tokens = Number(parseFloat(prompt('made by jaycub-how many tokens do you want?')));
                 reactHandler().stateNode.setState({ tokens });
         
-                alert('jayxdmbk set ur tokens to what you want                                                                           
-                                                                          
-                                                                          
-                                                                          
-                                                                          
-                                                                          
-                                                                          
-                                ████    ████                              
-                              ██▒▒▒▒████▒▒▒▒██                            
-                              ██▒▒▒▒▒▒▒▒▒▒▒▒██                            
-                              ██▒▒▒▒▒▒▒▒▒▒▒▒██                            
-                                ██▒▒▒▒▒▒▒▒██                              
-                                  ██▒▒▒▒██                                
-                                    ████                                  
-                                                                          
-                                                                          
-                                                                          
-                                                                          
-                                                                          
-                                                                          
-                                                                          
-                                                                          
-
+                alert('jayxdmbk set ur tokens what you wanted  love yall  🖤                                                                                                                                     
 !');
             };
 })();
@@ -47,7 +25,7 @@ function footer() {
     let element = document.createElement('div');
 
     element.style = `font-family: "Nunito", sans-serif; font-size: 14px; height: 65px; width: 175px; border: 4px solid rgb(15, 15, 15); background: rgb(240, 240, 240); position: absolute; top: 20x; left: 20px; border-radius: 10px; color: rgb(0, 0, 0); text-align: center;`;
-    element.innerHTML = `<p>Made by jaycub <br> the <a style="color: #0000ff;" href="https://www.youtube.com/watch?v=1rTY2JhYFtQ&list=RDBAsRTTO8L2k&index=12" target="_blank">best song to play while playing</a></p>`;
+    element.innerHTML = `<p>Made by jaycub <br> the <a alert('best song!');  style="color: #FF0000;" href="https://www.youtube.com/watch?v=1rTY2JhYFtQ&list=RDBAsRTTO8L2k&index=12" target="_blank">best song to play while playing</a></p>`;
     document.body.appendChild(element);
     
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
