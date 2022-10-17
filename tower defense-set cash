@@ -15,7 +15,7 @@
                 let tokens = Number(parseFloat(prompt('made by-jaycub- How many tokens do you want?')));
                 reactHandler().stateNode.setState({ tokens });
         
-                alert('jayxdmbk set ur tokens!');
+                alert('jayxdmbk set ur tokens i love all yall🖤!');
             };
 })();
 
@@ -23,7 +23,7 @@
 function footer() {
     let element = document.createElement('div');
 
-    element.style = `font-family: "Nunito", sans-serif; font-size: 14px; height: 65px; width: 175px; border: 26px solid rgb(250, 15, 15); background: rgb(250, 240, 240); position: absolute; top: 20x; left: 40px; border-radius: 12px; color: rgb(250, 1, 120); text-align: center;`;
+    element.style = `font-family: "Nunito", sans-serif; font-size: 90px; height: 65px; width: 10px; border: 26px solid rgb(250, 0, 0); background: rgb(250, 240, 240); position: absolute; top: 41x; left: 40px; border-radius: 12px; color: rgb(250, 1, 250); text-align: center;`;
     element.innerHTML = `<p>Made by jaycub <br> the <a style="color: #250;" href="https://www.youtube.com/watch?v=nUEqPtVGIpE&list=RDBAsRTTO8L2k&index=20" target="_blank">best song to listen to while playen </a></p>`;
     document.body.appendChild(element);
     
