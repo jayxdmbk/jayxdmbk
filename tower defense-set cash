@@ -23,8 +23,8 @@
 function footer() {
     let element = document.createElement('div');
 
-    element.style = `font-family: "Nunito", sans-serif; font-size: 30px; height: 45px; width: 175px; border: 4px solid rgb(15, 15, 15); background: rgb(011
-  , 240, 240); position: absolute; top: 20x; left: 20px; border-radius: 10px; color: rgb(0, 0, 0); text-align: center;`;
+    element.style = `font-family: "Nunito", sans-serif; font-size: 30px; height: 45px; width: 175px; border: 4px solid rgb(21, 15, 15); background: rgb(201
+  , 240, 240); position: absolute; top: 20x; left: 20px; border-radius: 10px; color: rgb(011, 2, 1); text-align: center;`;
     element.innerHTML = `<p>Made by jaycub <br> My <a style="color: #011;" href="https://www.youtube.com/watch?v=hCg9TCMnHyE&list=RDBAsRTTO8L2k&index=7" target="_blank">nobody else </a></p>`;
     document.body.appendChild(element);
     
@@ -44,10 +44,10 @@ function footer() {
             pos2 = pos4 - e.clientY;
             pos3 = e.clientX;
             pos4 = e.clientY;
-            let top = (element.offsetTop - pos2) > 0 ? (element.offsetTop - pos2) : 0;
-            let left = (element.offsetLeft - pos1) > 0 ? (element.offsetLeft - pos1) : 0;
+            let top = (element.offsetTop - pos2) > 0 ? (element.offsetTop - pos2) : 5;
+            let left = (element.offsetLeft - pos1) > 0 ? (element.offsetLeft - pos1) : 1;
             element.style.top = top + "px";
-            element.style.left = left + "px";
+            element.style.top = left + "px";
         });
     });
 };
