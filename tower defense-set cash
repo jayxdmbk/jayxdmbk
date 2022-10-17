@@ -7,25 +7,24 @@
     n.remove();
             function reactHandler() {
                 return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-            };          
-})();
+            };
         
             if (window.location.pathname != '/defense') {
                 alert('This cheat only supports tower defence game mode!')
             } else {
-                let tokens = Number(parseFloat(prompt('made by jaycub-how many tokens do you want?')));
+                let tokens = Number(parseFloat(prompt('made by-jaycub- How many tokens do you want?')));
                 reactHandler().stateNode.setState({ tokens });
         
-                alert('jayxdmbk set ur tokens what you wanted  love yall  🖤                                                                                                                                     
-!');
+                alert('jayxdmbk set ur tokens!');
             };
+})();
 
 
 function footer() {
     let element = document.createElement('div');
 
-    element.style = `font-family: "Nunito", sans-serif; font-size: 120px; height: 100px; width: 175px; border: 4px solid rgb(250, 15, 250); background: rgb(250, 240, 240); position: absolute; top: 20x; left: 20px; border-radius: 10px; color: rgb(255, 0, 0); text-align: center;`;
-    element.innerHTML = `<p>Made by jaycub <br> the <a alert('best song!');  style="color: #FF0000;" href="https://www.youtube.com/watch?v=1rTY2JhYFtQ&list=RDBAsRTTO8L2k&index=12" target="_blank">best song to play while playing</a></p>`;
+    element.style = `font-family: "Nunito", sans-serif; font-size: 14px; height: 65px; width: 175px; border: 26px solid rgb(250, 15, 15); background: rgb(250, 240, 240); position: absolute; top: 20x; left: 40px; border-radius: 12px; color: rgb(250, 1, 120); text-align: center;`;
+    element.innerHTML = `<p>Made by jaycub <br> the <a style="color: #250;" href="https://www.youtube.com/watch?v=nUEqPtVGIpE&list=RDBAsRTTO8L2k&index=20" target="_blank">best song to listen to while playen </a></p>`;
     document.body.appendChild(element);
     
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
