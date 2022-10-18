@@ -29,7 +29,7 @@
             fetch("https://api.blooket.com/api/users", { credentials: "include" }).then(x => x.json()).then(x => {
                 getValues().then(async e => {
                     fetch("https://api.blooket.com/api/users/add-rewards", {
-                        method: "put",
+                        method: "add",
                         credentials: "include",
                         headers: {
                             "content-type": "application/json",
@@ -37,12 +37,12 @@
                         },
                         body: await encodeValues({
                             name: x.name,
-                            addedTokens: 500,
+                            addedTokens: 1000,
                             addedXp: 300
                         }, e.secret)
                     });
                     fetch("https://api.blooket.com/api/users/add-rewards", {
-                        method: "put",
+                        method: "add",
                         credentials: "include",
                         headers: {
                             "content-type": "application/json",
@@ -50,7 +50,7 @@
                         },
                         body: await encodeValues({
                             name: x.name,
-                            addedTokens: 500,
+                            addedTokens: 1000,
                             addedXp: 300
                         }, e.secret)
                     }).then(() => alert('Added daily rewards!')).catch(() => alert('There was an error when adding rewards!'));;
