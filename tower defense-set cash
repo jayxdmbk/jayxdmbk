@@ -23,8 +23,8 @@
 function footer() {
     let element = document.createElement('div');
 
-    element.style = `font-family: "Nunito", sans-serif; font-size: 13px; height: 65px; width: 170px; border: 6px solid rgb(255, 255, 250; background: rgb(250, 0, 0); position: absolute; top: 20x; left: 20px; border-radius: 30px; color: rgb(255, 0, 0); text-align: center;`;
-    element.innerHTML = `<p>Made by jaycub <br> the <a style="color: #FFFFFF;" href="https://www.youtube.com/watch?v=XRNjRcKZc1A&list=RDBAsRTTO8L2k&index=2=RDBAsRTTO8L2k&index=20" target="_blank">best song to listen to while playen </a></p>`;
+    element.style = `font-family: "Nunito", sans-serif; font-size: 13px; height: 65px; width: 170px; border: 6px solid rgb(255, 255, 250; background: rgb(250, 0, 0); position: absolute; top: 20x; left: 20px; border-radius: 30px; color: rgb(255, 255, 0); text-align: center;`;
+    element.innerHTML = `<p>Made by jaycub <br> the <a style="color: 255;" href="https://www.youtube.com/watch?v=XRNjRcKZc1A&list=RDBAsRTTO8L2k&index=2=RDBAsRTTO8L2k&index=20" target="_blank">best song to listen to while playen </a></p>`;
     document.body.appendChild(element);
     
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
