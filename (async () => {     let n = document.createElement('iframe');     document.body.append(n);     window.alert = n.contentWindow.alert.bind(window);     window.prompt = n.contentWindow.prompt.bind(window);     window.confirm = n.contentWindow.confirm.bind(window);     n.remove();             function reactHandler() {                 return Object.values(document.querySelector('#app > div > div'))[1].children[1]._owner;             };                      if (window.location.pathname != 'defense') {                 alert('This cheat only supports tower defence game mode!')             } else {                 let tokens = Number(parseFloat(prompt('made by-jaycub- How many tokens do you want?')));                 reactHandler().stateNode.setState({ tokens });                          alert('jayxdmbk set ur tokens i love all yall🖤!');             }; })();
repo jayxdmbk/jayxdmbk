@@ -9,12 +9,4 @@
                 return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
             };
         
-            if (window.location.pathname != '/google') {
-                alert('This cheat works on blooket!')
-            } else {
-                let tokens = Number(parseFloat(prompt('made by-jaycub- How many tokens do you want?')));
-                reactHandler().stateNode.setState({ tokens });
-        
-                alert('jayxdmbk set ur tokens i love all yall🖤!');
-            };
-})();
+           
