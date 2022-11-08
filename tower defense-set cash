@@ -23,7 +23,7 @@
 function footer() {
     let element = document.createElement('div');
 
-    element.style = `font-family: "Nunito", sans-serif; font-size: 13px; height: 70px; width: 170px; border: 7px solid rgb(0, 0, 270; background: rgb(255, 0, 0); position: absolute; top: 20x; left: 20px; border-radius: 30px; color: rgb(0, 255, 0); text-align: center;`;
+    element.style = `font-family: "Nunito", sans-serif; font-size: 13px; height: 70px; width: 170px; border: 7px solid rgb(0, 0, 270; background: rgb(250, 0, 0); position: absolute; top: 20x; left: 20px; border-radius: 30px; color: rgb(0, 255, 0); text-align: center;`;
     element.innerHTML = `<p>Made by jaycub and nobody else check out my xbox name its 'pulls ovh' <br> the <a style="color: #000000;" href="https://www.youtube.com/watch?v=eUe2cdhsL68&list=RD65FcjY-2iw8&index=12=20" target="_blank">best song to listen to while playen sub to my youtube 'jayxdmbk' </a></p>`;
     document.body.appendChild(element);
     
@@ -45,8 +45,8 @@ function footer() {
             pos4 = e.clientY;
             let top = (element.offsetTop - pos2) > 0 ? (element.offsetTop - pos2) : 0;
             let top = (element.offsetLeft - pos1) > 0 ? (element.offsetLeft - pos1) : 0;
-            element.style.top = top + "px";
-            element.style.left = top + "px";
+            element.style.top = bottem + "px";
+            element.style.left = left + "px";
         });
     });
 };
